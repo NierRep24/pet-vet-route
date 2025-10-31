@@ -49,10 +49,11 @@ All colors MUST be HSL.
     --gradient-primary: linear-gradient(135deg, hsl(197 71% 73%), hsl(197 71% 83%));
     --gradient-hero: linear-gradient(to bottom right, hsl(197 71% 73%), hsl(210 100% 85%));
     
-    /* Shadows */
-    --shadow-soft: 0 2px 8px -2px hsl(197 71% 73% / 0.2);
-    --shadow-medium: 0 4px 16px -4px hsl(197 71% 73% / 0.3);
-    --shadow-large: 0 8px 32px -8px hsl(197 71% 73% / 0.4);
+    /* Shadows - Uber-style elevated shadows */
+    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.1), 0 1px 2px 0 hsl(0 0% 0% / 0.06);
+    --shadow-medium: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
+    --shadow-large: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -2px hsl(0 0% 0% / 0.05);
+    --shadow-floating: 0 20px 25px -5px hsl(0 0% 0% / 0.1), 0 10px 10px -5px hsl(0 0% 0% / 0.04);
 
     --sidebar-background: 0 0% 98%;
 
@@ -108,9 +109,10 @@ All colors MUST be HSL.
     --gradient-primary: linear-gradient(135deg, hsl(197 71% 63%), hsl(197 71% 73%));
     --gradient-hero: linear-gradient(to bottom right, hsl(197 71% 63%), hsl(210 100% 70%));
     
-    --shadow-soft: 0 2px 8px -2px hsl(197 71% 63% / 0.3);
-    --shadow-medium: 0 4px 16px -4px hsl(197 71% 63% / 0.4);
-    --shadow-large: 0 8px 32px -8px hsl(197 71% 63% / 0.5);
+    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.2), 0 1px 2px 0 hsl(0 0% 0% / 0.12);
+    --shadow-medium: 0 4px 6px -1px hsl(0 0% 0% / 0.2), 0 2px 4px -1px hsl(0 0% 0% / 0.12);
+    --shadow-large: 0 10px 15px -3px hsl(0 0% 0% / 0.2), 0 4px 6px -2px hsl(0 0% 0% / 0.1);
+    --shadow-floating: 0 20px 25px -5px hsl(0 0% 0% / 0.2), 0 10px 10px -5px hsl(0 0% 0% / 0.08);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

@@ -116,8 +116,8 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "fade-in": "fade-in 0.5s ease-out",
-        "slide-up": "slide-up 0.5s ease-out",
+        "fade-in": "fade-in 0.3s ease-out",
+        "slide-up": "slide-up 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
         "bounce-subtle": "bounce-subtle 2s ease-in-out infinite",
       },
       backgroundImage: {
@@ -128,6 +128,7 @@ export default {
         "soft": "var(--shadow-soft)",
         "medium": "var(--shadow-medium)",
         "large": "var(--shadow-large)",
+        "floating": "var(--shadow-floating)",
       },
     },
   },
