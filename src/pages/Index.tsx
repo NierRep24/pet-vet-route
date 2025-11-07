@@ -16,7 +16,7 @@ const Index = () => {
             <div className="flex items-center gap-2">
               <PawPrint className="h-8 w-8 text-primary" />
               <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                PetTransport
+                PeTransport
               </h1>
             </div>
             <div className="flex gap-3">
@@ -198,10 +198,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <PawPrint className="h-6 w-6 text-primary" />
-              <span className="font-semibold">PetTransport</span>
+              <span className="font-semibold">PeTransport</span>
             </div>
             <p className="text-sm text-muted-foreground text-center">
-              © 2025 PetTransport. Transporte seguro para tus mascotas.
+              © 2025 PeTransport. Transporte seguro para tus mascotas.
             </p>
           </div>
         </div>

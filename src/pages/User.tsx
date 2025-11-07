@@ -106,7 +106,7 @@ const User = () => {
           </button>
           <div className="flex items-center gap-2">
             <PawPrint className="h-6 w-6 text-primary" />
-            <span className="font-bold text-lg">PetTransport</span>
+            <span className="font-bold text-lg">PeTransport</span>
           </div>
           <button className="p-2 hover:bg-accent rounded-full transition-colors">
             <UserIcon className="h-6 w-6" />
